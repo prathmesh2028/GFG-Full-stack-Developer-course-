@@ -7,4 +7,4 @@ let _;
 
 let $m = "hello world..>!";
 // $m="hello jii";
-console.log($)
+console.log($m);

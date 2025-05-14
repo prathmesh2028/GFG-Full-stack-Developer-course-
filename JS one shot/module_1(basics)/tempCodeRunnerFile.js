@@ -1,2 +1,3 @@
-e1232!@#$^";
-// console.log(typeof(username))
+= null;
+console.log(salary)
+console.log(
