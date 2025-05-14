@@ -1,3 +1,3 @@
-= null;
-console.log(salary)
-console.log(
+= "hello world of the javascript...!";
+const message = "hello";
+console.log(mes

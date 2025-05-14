@@ -25,6 +25,6 @@
  let number = readlinesync.question("Enter the number less than 50 here :");
 //  console.log(number);
  while(number>=50){
-    number = readlinesync.question("Kindly enter less than 50 :")
+    number = readlinesync.question("Kindly enter less than 50 :");
  }
- console.log("number accepted..!")
+ console.log("number accepted..!");

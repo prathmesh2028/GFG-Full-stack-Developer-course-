@@ -1,7 +1,7 @@
 //ReadlineSync something like that
 
 /*
-this is a multiline comment int he javascript
+this is a multiline comment in the javascript
 soo now
 
 read data from the user :)
