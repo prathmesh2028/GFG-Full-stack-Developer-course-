@@ -1,0 +1,13 @@
+body{
+    background-color: bisque;
+}
+
+
+.stop{
+    background-color: yellow;
+    color: black;
+}
+.btn-red{
+    background-color: red;
+    color: wheat;
+}
