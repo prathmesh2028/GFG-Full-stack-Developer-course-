@@ -24,6 +24,7 @@ function greetMessage(wrapper){
 
 function displayMessage(){
     return function (){
+        //THIS IS ALSO THE FIRST CLASS FUNCTION
         console.log("Hello from the inner function...!");
     }
 }
