@@ -6,6 +6,17 @@
  */
 
 
+
+/**
+ * All the regular functions instead of Arrow functions 
+ * have a special Object called Arguments Object that contains all the arguments passed to a function. 
+ * It is an array Like Object present locally inside a function and it contains all the arguments passed to a function.
+
+ */
+
+
+
+
 // function calculateTotal(a,b){
 //     // return a  +  b  ;
 //     arguments[3] = 0;
