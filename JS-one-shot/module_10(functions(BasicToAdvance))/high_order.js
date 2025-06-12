@@ -31,5 +31,58 @@ function displayMessage(){
 
 
 
-const output = displayMessage();
-output();
+// const output = displayMessage();
+// output();
+
+
+
+
+
+
+
+
+
+// const arr = [1,2,3,4,5,6];
+
+// function squareOfNumber(arr){
+//     let squareNumbers = [];
+//     for(let number of arr){
+//         squareNumbers.push(number**2);
+//     }
+//     return squareNumbers;
+// }
+
+
+// const output = squareOfNumber(arr);
+// console.log(output);
+
+
+const arr = [1,2,3,4,5,6];
+
+
+
+function square(number){
+    return number**2;
+}
+
+
+function cube(number){
+    return number**3;
+}
+
+
+
+function calculatePower(wrapper, arr){
+    let TempArr = [];
+    for(let number of arr){
+        TempArr.push(wrapper(number));
+    }
+    return TempArr;
+}
+
+const squareOfNumbers = calculatePower(square, arr);
+console.log(squareOfNumbers);
+const cubeOfNumbers = calculatePower(cube, arr);
+console.log(cubeOfNumbers);
+
+
